@@ -6,5 +6,5 @@ $vendorDir = dirname(dirname(__FILE__));
 $baseDir = dirname($vendorDir);
 
 return array(
-    'Yangbx\\CaptchaLumen\\' => array($baseDir . '/src'),
+    'VueOne\\CaptchaLumen\\' => array($baseDir . '/src'),
 );

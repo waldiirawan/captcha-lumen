@@ -1,6 +1,6 @@
 <?php
 
-namespace Yangbx\CaptchaLumen;
+namespace VueOne\CaptchaLumen;
 
 use Illuminate\Http\Request;
 use Laravel\Lumen\Routing\Controller;
@@ -15,7 +15,7 @@ class LumenCaptchaController extends Controller
     /**
      * get CAPTCHA
      *
-     * @param \Yangbx\CaptchaLumen\CaptchaService $captcha
+     * @param \VueOne\CaptchaLumen\CaptchaService $captcha
      * @param string $config
      * @param $captchaId
      * @return \Intervention\Image\ImageManager->response

@@ -1,6 +1,6 @@
 <?php
 
-namespace Yangbx\CaptchaLumen;
+namespace VueOne\CaptchaLumen;
 
 
 use Cache;
@@ -215,7 +215,10 @@ class Captcha
         $captchaId = 'captcha_'.$captchaId;
 
         $cacheTime = isset($this->captchaConf['useful_time']) ? $this->captchaConf['useful_time'] : 5;
-        Cache::put($captchaId,$bag,$cacheTime);
+        Cache::put($captchaId, $bag, $cacheTime);
+        $this->fonts = array_map(function($file) {
+            return $file->getPathname();
+        }, $this->fonts);
         return $bag;
     }
 
@@ -399,5 +402,4 @@ class Captcha
         }
         return $this->image;
     }
-
 }

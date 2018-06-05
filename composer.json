@@ -1,12 +1,12 @@
 {
-    "name": "yangbx/captcha-lumen",
+    "name": "VueOne/captcha-lumen",
     "description": "captcha for lumen",
     "keywords": ["lumen Captcha", "Captcha", "Captcha for api"],
     "type": "library",
     "license": "MIT",
     "authors": [
         {
-            "name": "yangbx",
+            "name": "VueOne",
             "email": "joejoeyang0609@gmail.com"
         }
     ],
@@ -22,7 +22,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Yangbx\\CaptchaLumen\\": "src/"
+            "VueOne\\CaptchaLumen\\": "src/"
         },
         "files": [
             "src/helpers.php"
