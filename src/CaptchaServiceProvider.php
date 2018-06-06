@@ -23,9 +23,8 @@ class CaptchaServiceProvider extends ServiceProvider {
         $this->app->router->get('captcha/{type}/{captchaId}', 'VueOne\CaptchaLumen\LumenCaptchaController@getCaptcha');
 
         // Validator extensions
-        $this->app['validator']->extend('captcha', function($attribute, $value, $parameters)
-        {
-            $captchaId=$parameters[0];
+        $this->app['validator']->extend('captcha', function($attribute, $value, $parameters) {
+            $captchaId = $parameters[0];
             return app('captcha')->checkCaptchaById($value,$captchaId);
         });
 
