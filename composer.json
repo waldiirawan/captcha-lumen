@@ -1,5 +1,5 @@
 {
-    "name": "Vueone/captcha-lumen",
+    "name": "vueone/captcha-lumen",
     "description": "captcha for lumen",
     "keywords": ["Lumen Captcha", "Captcha", "Captcha for api"],
     "type": "library",
