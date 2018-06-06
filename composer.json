@@ -22,7 +22,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Vueone\\Captchalumen\\": "src/"
+            "Vueone\\CaptchaLumen\\": "src/"
         },
         "files": [
             "src/helpers.php"
