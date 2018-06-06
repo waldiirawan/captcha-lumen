@@ -1,6 +1,6 @@
 <?php
 
-namespace VueOne\CaptchaLumen\Facades;
+namespace Vueone\CaptchaLumen\Facades;
 
 use Illuminate\Support\Facades\Facade;
 

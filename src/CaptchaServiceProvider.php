@@ -1,8 +1,8 @@
 <?php
 
-namespace VueOne\CaptchaLumen;
+namespace Vueone\CaptchaLumen;
 
-use VueOne\CaptchaLumen\Captcha;
+use Vueone\CaptchaLumen\Captcha;
 use Illuminate\Support\ServiceProvider;
 
 /**
@@ -19,8 +19,8 @@ class CaptchaServiceProvider extends ServiceProvider {
     public function boot()
     {
         // HTTP routing
-        $this->app->router->get('captchaInfo[/{type}]', 'VueOne\CaptchaLumen\LumenCaptchaController@getCaptchaInfo');
-        $this->app->router->get('captcha/{type}/{captchaId}', 'VueOne\CaptchaLumen\LumenCaptchaController@getCaptcha');
+        $this->app->router->get('captchaInfo[/{type}]', 'Vueone\CaptchaLumen\LumenCaptchaController@getCaptchaInfo');
+        $this->app->router->get('captcha/{type}/{captchaId}', 'Vueone\CaptchaLumen\LumenCaptchaController@getCaptcha');
 
         // Validator extensions
         $this->app['validator']->extend('captcha', function($attribute, $value, $parameters) {

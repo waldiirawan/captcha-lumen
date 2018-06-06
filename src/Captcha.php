@@ -1,6 +1,6 @@
 <?php
 
-namespace VueOne\CaptchaLumen;
+namespace Vueone\CaptchaLumen;
 
 
 use Cache;

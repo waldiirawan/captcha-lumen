@@ -1,12 +1,12 @@
 {
-    "name": "VueOne/captcha-lumen",
+    "name": "Vueone/captcha-lumen",
     "description": "captcha for lumen",
-    "keywords": ["lumen Captcha", "Captcha", "Captcha for api"],
+    "keywords": ["Lumen Captcha", "Captcha", "Captcha for api"],
     "type": "library",
     "license": "MIT",
     "authors": [
         {
-            "name": "VueOne",
+            "name": "Vueone",
             "email": "joejoeyang0609@gmail.com"
         }
     ],
@@ -22,7 +22,7 @@
     },
     "autoload": {
         "psr-4": {
-            "VueOne\\CaptchaLumen\\": "src/"
+            "Vueone\\Captchalumen\\": "src/"
         },
         "files": [
             "src/helpers.php"
